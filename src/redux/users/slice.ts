@@ -58,4 +58,5 @@ const usersSlice = createSlice({
       });
   },
 });
+export const { setFilter, resetFilters } = usersSlice.actions;
 export default usersSlice.reducer;
